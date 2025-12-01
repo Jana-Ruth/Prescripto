@@ -1,1 +1,17 @@
+@theme {
+  --color-primary: #5f6FFF; /* choose any color */
+  --grid-template-columns-auto: repeat(auto-fill, minmax(200px, 1fr))
+  
+}
+
 @import "tailwindcss";
+
+.active hr{
+    @apply block
+}
+
+::-webkit-scrollbar{
+    @apply hidden;
+}
+
+  
